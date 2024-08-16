@@ -1,0 +1,24 @@
+layout {
+  cwd "~/Work/"
+  default_tab_template {
+    pane size=1 borderless=true {
+      plugin location="zjstatus" 
+    }
+    children
+  }
+  new_tab_template {
+    pane size=1 borderless=true {
+      plugin location="zjstatus" 
+    }
+    pane borderless=true
+  }
+  tab name="Terminal" {
+    pane borderless=true
+  }
+  tab name="Code" {
+    pane split_direction="horizontal" {
+      pane size="80%" borderless=true 
+      pane name="Testing" borderless=true 
+    }
+  }
+}
