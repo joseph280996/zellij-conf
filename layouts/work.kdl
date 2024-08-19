@@ -18,7 +18,6 @@ layout {
   tab name="Code" {
     pane split_direction="horizontal" {
       pane size="80%" borderless=true 
-      pane name="Testing" borderless=true 
     }
   }
 }
