@@ -193,7 +193,7 @@ themes {
   }
 }
 
-layout_dir "/home/joseph280996/.config/zellij/layouts"
+layout_dir "/home/tpham3/.config/zellij/layouts"
 
 pane_frames false
 simplified_ui true

@@ -12,13 +12,6 @@ layout {
     pane borderless=true
   }
   tab cwd="nvim" name="Neovim" {
-    pane name="Editor" command="nvim" borderless=true {
-      args "."
-    }
-  }
-  tab cwd="zellij" name="Zellij" {
-    pane name="Editor" command="nvim" borderless=true {
-      args "."
-    }
+    pane name="Editor" command="nvim" borderless=true   
   }
 }
