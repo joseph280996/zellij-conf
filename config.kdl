@@ -139,14 +139,14 @@ plugins {
     mode_tmux          "#[bg=#f5a97f,fg=#1F1F28,bold] TMUX #[bg=#1F1F28,fg=#f5a97f]"
 
     // formatting for inactive tabs
-    tab_normal              "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{floating_indicator} #[bg=#1F1F28,fg=#363646,bold]"
-    tab_normal_fullscreen   "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{fullscreen_indicator} #[bg=#1F1F28,fg=#363646,bold]"
-    tab_normal_sync         "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{sync_indicator} #[bg=#1F1F28,fg=#363646,bold]"
+    tab_normal              "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{floating_indicator} #[bg=#1F1F28,fg=#363646,bold]"
+    tab_normal_fullscreen   "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{fullscreen_indicator} #[bg=#1F1F28,fg=#363646,bold]"
+    tab_normal_sync         "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#363646,fg=#7E9CD8,bold] {name}{sync_indicator} #[bg=#1F1F28,fg=#363646,bold]"
 
     // formatting for the current active tab
-    tab_active              "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#7AA89F,fg=#1F1F28,bold] {name}{floating_indicator} #[bg=#1F1F28,fg=#7AA89F,bold]"
-    tab_active_fullscreen   "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#7AA89F,fg=#1F1F28,bold] {name}{fullscreen_indicator} #[bg=#1F1F28,fg=#7AA89F,bold]"
-    tab_active_sync         "#[bg=#E6C384,fg=#1F1F28,bold] {index} #[bg=#7AA89F,fg=#1F1F28,bold] {name}{sync_indicator} #[bg=#1F1F28,fg=#7AA89F,bold]"
+    tab_active              "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#7E9CD8,fg=#1F1F28,bold] {name}{floating_indicator} #[bg=#1F1F28,fg=#7E9CD8,bold]"
+    tab_active_fullscreen   "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#7E9CD8,fg=#1F1F28,bold] {name}{fullscreen_indicator} #[bg=#1F1F28,fg=#7E9CD8,bold]"
+    tab_active_sync         "#[bg=#7E9CD8,fg=#1F1F28,bold] {index} #[bg=#7E9CD8,fg=#1F1F28,bold] {name}{sync_indicator} #[bg=#1F1F28,fg=#7E9CD8,bold]"
 
     // separator between the tabs
     tab_separator           "#[bg=#1F1F28] "

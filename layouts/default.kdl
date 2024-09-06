@@ -1,4 +1,5 @@
 layout {
+  cwd "~/Code/"
   default_tab_template {
     pane size=1 borderless=true {
       plugin location="zjstatus" 
@@ -11,14 +12,10 @@ layout {
     }
     pane borderless=true
   }
-  tab cwd="nvim" name="Neovim" {
-    pane name="Editor" command="nvim" borderless=true {
-      args "."
-    }
+  tab name="Terminal" {
+    pane
   }
-  tab cwd="zellij" name="Zellij" {
-    pane name="Editor" command="nvim" borderless=true {
-      args "."
-    }
+  tab name="Editor" {
+    pane
   }
 }
