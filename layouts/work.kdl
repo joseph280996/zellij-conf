@@ -12,12 +12,12 @@ layout {
     }
     pane borderless=true
   }
-  tab name="Terminal" {
-    pane borderless=true
-  }
   tab name="Code" {
     pane split_direction="horizontal" {
       pane size="80%" borderless=true 
     }
+  }
+  tab name="Terminal" {
+    pane borderless=true
   }
 }
