@@ -110,7 +110,7 @@ keybinds clear-defaults=true {
 }
 
 plugins {
-  zjstatus location="file:~/.config/zellij/plugins/zjstatus.wasm" {
+  zjstatus location="file:/Users/joseph280996/.config/zellij/plugins/zjstatus.wasm" {
     format_left   "{mode}#[bg=#1F1F28] {tabs}"
     format_center ""
     format_right  "#[bg=#1F1F28,fg=#7E9CD8]#[bg=#7E9CD8,fg=#1F1F28,bold] #[bg=#7E9CD8,fg=#1F1F28,bold] {session} "
@@ -193,7 +193,7 @@ themes {
   }
 }
 
-layout_dir "/home/tpham3/.config/zellij/layouts"
+layout_dir "/Users/joseph280996/.config/zellij/layouts"
 
 pane_frames false
 simplified_ui true
