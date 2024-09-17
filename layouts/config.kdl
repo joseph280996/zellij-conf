@@ -22,4 +22,9 @@ layout {
       args "."
     }
   }
+  tab cwd="wezterm" name="Wezterm" {
+    pane name="Editor" command="nvim" borderless=true {
+      args "."
+    }
+  }
 }
