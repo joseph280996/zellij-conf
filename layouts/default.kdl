@@ -12,10 +12,10 @@ layout {
     }
     pane borderless=true
   }
-  tab name="Terminal" {
+  tab name="Editor" {
     pane
   }
-  tab name="Editor" {
+  tab name="Terminal" {
     pane
   }
 }
